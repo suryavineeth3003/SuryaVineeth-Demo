@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		D3E3AED52EF9A60D0048075A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3E3AEB62EF9A60C0048075A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3E3AEBD2EF9A60C0048075A;
+			remoteInfo = "SuryaVineeth-Demo";
+		};
+		D3E3AEDF2EF9A60D0048075A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3E3AEB62EF9A60C0048075A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3E3AEBD2EF9A60C0048075A;
+			remoteInfo = "SuryaVineeth-Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3E3AEBE2EF9A60C0048075A /* SuryaVineeth-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SuryaVineeth-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3E3AED42EF9A60D0048075A /* SuryaVineeth-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SuryaVineeth-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3E3AEDE2EF9A60D0048075A /* SuryaVineeth-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SuryaVineeth-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D3E3AEE62EF9A60D0048075A /* Exceptions for "SuryaVineeth-Demo" folder in "SuryaVineeth-Demo" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = D3E3AEBD2EF9A60C0048075A /* SuryaVineeth-Demo */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D3E3AEC02EF9A60C0048075A /* SuryaVineeth-Demo */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D3E3AEE62EF9A60D0048075A /* Exceptions for "SuryaVineeth-Demo" folder in "SuryaVineeth-Demo" target */,
+			);
+			path = "SuryaVineeth-Demo";
+			sourceTree = "<group>";
+		};
+		D3E3AED72EF9A60D0048075A /* SuryaVineeth-DemoTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "SuryaVineeth-DemoTests";
+			sourceTree = "<group>";
+		};
+		D3E3AEE12EF9A60D0048075A /* SuryaVineeth-DemoUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "SuryaVineeth-DemoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3E3AEBB2EF9A60C0048075A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3E3AED12EF9A60D0048075A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3E3AEDB2EF9A60D0048075A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3E3AEB52EF9A60C0048075A = {
+			isa = PBXGroup;
+			children = (
+				D3E3AEC02EF9A60C0048075A /* SuryaVineeth-Demo */,
+				D3E3AED72EF9A60D0048075A /* SuryaVineeth-DemoTests */,
+				D3E3AEE12EF9A60D0048075A /* SuryaVineeth-DemoUITests */,
+				D3E3AEBF2EF9A60C0048075A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3E3AEBF2EF9A60C0048075A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3E3AEBE2EF9A60C0048075A /* SuryaVineeth-Demo.app */,
+				D3E3AED42EF9A60D0048075A /* SuryaVineeth-DemoTests.xctest */,
+				D3E3AEDE2EF9A60D0048075A /* SuryaVineeth-DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3E3AEBD2EF9A60C0048075A /* SuryaVineeth-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3E3AEE72EF9A60D0048075A /* Build configuration list for PBXNativeTarget "SuryaVineeth-Demo" */;
+			buildPhases = (
+				D3E3AEBA2EF9A60C0048075A /* Sources */,
+				D3E3AEBB2EF9A60C0048075A /* Frameworks */,
+				D3E3AEBC2EF9A60C0048075A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D3E3AEC02EF9A60C0048075A /* SuryaVineeth-Demo */,
+			);
+			name = "SuryaVineeth-Demo";
+			packageProductDependencies = (
+			);
+			productName = "SuryaVineeth-Demo";
+			productReference = D3E3AEBE2EF9A60C0048075A /* SuryaVineeth-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3E3AED32EF9A60D0048075A /* SuryaVineeth-DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3E3AEEC2EF9A60D0048075A /* Build configuration list for PBXNativeTarget "SuryaVineeth-DemoTests" */;
+			buildPhases = (
+				D3E3AED02EF9A60D0048075A /* Sources */,
+				D3E3AED12EF9A60D0048075A /* Frameworks */,
+				D3E3AED22EF9A60D0048075A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3E3AED62EF9A60D0048075A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D3E3AED72EF9A60D0048075A /* SuryaVineeth-DemoTests */,
+			);
+			name = "SuryaVineeth-DemoTests";
+			packageProductDependencies = (
+			);
+			productName = "SuryaVineeth-DemoTests";
+			productReference = D3E3AED42EF9A60D0048075A /* SuryaVineeth-DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3E3AEDD2EF9A60D0048075A /* SuryaVineeth-DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3E3AEEF2EF9A60D0048075A /* Build configuration list for PBXNativeTarget "SuryaVineeth-DemoUITests" */;
+			buildPhases = (
+				D3E3AEDA2EF9A60D0048075A /* Sources */,
+				D3E3AEDB2EF9A60D0048075A /* Frameworks */,
+				D3E3AEDC2EF9A60D0048075A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3E3AEE02EF9A60D0048075A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D3E3AEE12EF9A60D0048075A /* SuryaVineeth-DemoUITests */,
+			);
+			name = "SuryaVineeth-DemoUITests";
+			packageProductDependencies = (
+			);
+			productName = "SuryaVineeth-DemoUITests";
+			productReference = D3E3AEDE2EF9A60D0048075A /* SuryaVineeth-DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3E3AEB62EF9A60C0048075A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					D3E3AEBD2EF9A60C0048075A = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					D3E3AED32EF9A60D0048075A = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = D3E3AEBD2EF9A60C0048075A;
+					};
+					D3E3AEDD2EF9A60D0048075A = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = D3E3AEBD2EF9A60C0048075A;
+					};
+				};
+			};
+			buildConfigurationList = D3E3AEB92EF9A60C0048075A /* Build configuration list for PBXProject "SuryaVineeth-Demo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3E3AEB52EF9A60C0048075A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D3E3AEBF2EF9A60C0048075A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3E3AEBD2EF9A60C0048075A /* SuryaVineeth-Demo */,
+				D3E3AED32EF9A60D0048075A /* SuryaVineeth-DemoTests */,
+				D3E3AEDD2EF9A60D0048075A /* SuryaVineeth-DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3E3AEBC2EF9A60C0048075A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3E3AED22EF9A60D0048075A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3E3AEDC2EF9A60D0048075A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3E3AEBA2EF9A60C0048075A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3E3AED02EF9A60D0048075A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3E3AEDA2EF9A60D0048075A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3E3AED62EF9A60D0048075A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3E3AEBD2EF9A60C0048075A /* SuryaVineeth-Demo */;
+			targetProxy = D3E3AED52EF9A60D0048075A /* PBXContainerItemProxy */;
+		};
+		D3E3AEE02EF9A60D0048075A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3E3AEBD2EF9A60C0048075A /* SuryaVineeth-Demo */;
+			targetProxy = D3E3AEDF2EF9A60D0048075A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D3E3AEE82EF9A60D0048075A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SuryaVineeth-Demo/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.SuryaVineeth-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3E3AEE92EF9A60D0048075A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SuryaVineeth-Demo/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.SuryaVineeth-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D3E3AEEA2EF9A60D0048075A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3E3AEEB2EF9A60D0048075A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3E3AEED2EF9A60D0048075A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.SuryaVineeth-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuryaVineeth-Demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SuryaVineeth-Demo";
+			};
+			name = Debug;
+		};
+		D3E3AEEE2EF9A60D0048075A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.SuryaVineeth-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuryaVineeth-Demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SuryaVineeth-Demo";
+			};
+			name = Release;
+		};
+		D3E3AEF02EF9A60D0048075A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.SuryaVineeth-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SuryaVineeth-Demo";
+			};
+			name = Debug;
+		};
+		D3E3AEF12EF9A60D0048075A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.SuryaVineeth-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SuryaVineeth-Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3E3AEB92EF9A60C0048075A /* Build configuration list for PBXProject "SuryaVineeth-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3AEEA2EF9A60D0048075A /* Debug */,
+				D3E3AEEB2EF9A60D0048075A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3E3AEE72EF9A60D0048075A /* Build configuration list for PBXNativeTarget "SuryaVineeth-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3AEE82EF9A60D0048075A /* Debug */,
+				D3E3AEE92EF9A60D0048075A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3E3AEEC2EF9A60D0048075A /* Build configuration list for PBXNativeTarget "SuryaVineeth-DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3AEED2EF9A60D0048075A /* Debug */,
+				D3E3AEEE2EF9A60D0048075A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3E3AEEF2EF9A60D0048075A /* Build configuration list for PBXNativeTarget "SuryaVineeth-DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3AEF02EF9A60D0048075A /* Debug */,
+				D3E3AEF12EF9A60D0048075A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3E3AEB62EF9A60C0048075A /* Project object */;
+}
