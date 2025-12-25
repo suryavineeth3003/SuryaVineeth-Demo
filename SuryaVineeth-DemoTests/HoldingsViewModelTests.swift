@@ -357,21 +357,33 @@ final class HoldingsViewModelTests: XCTestCase {
     func test_loadHoldings_calledTwice_replacesHoldings() async {
         let first = [Holding(symbol: "INFY", quantity: 1, ltp: 1, avgPrice: 1, close: 1)]
         let second = [Holding(symbol: "TCS", quantity: 1, ltp: 1, avgPrice: 1, close: 1)]
-
+        
         let usecase = FetchHoldingsUsecaseStub(mode: .success(first))
         let formatter = CurrencyFormatterStub()
         let sut = HoldingsViewModel(formatter: formatter, usecase: usecase)
-
+        
+        let firstUpdate = expectation(description: "first holdings update")
+        let secondUpdate = expectation(description: "second holdings update")
+        
+        var updateCount = 0
+        sut.onHoldingsUpdated = {
+            updateCount += 1
+            if updateCount == 1 { firstUpdate.fulfill() }
+            if updateCount == 2 { secondUpdate.fulfill() }
+        }
+        
+        // 1st load
         sut.loadHoldings()
-        await Task.yield()
-
+        await fulfillment(of: [firstUpdate], timeout: 1.0)
+        
         XCTAssertEqual(sut.numberOfHoldings(), 1)
         XCTAssertEqual(sut.cellViewModel(for: 0).symbol, "INFY")
-
+        
+        // 2nd load
         usecase.mode = .success(second)
         sut.loadHoldings()
-        await Task.yield()
-
+        await fulfillment(of: [secondUpdate], timeout: 1.0)
+        
         XCTAssertEqual(sut.numberOfHoldings(), 1)
         XCTAssertEqual(sut.cellViewModel(for: 0).symbol, "TCS")
     }
