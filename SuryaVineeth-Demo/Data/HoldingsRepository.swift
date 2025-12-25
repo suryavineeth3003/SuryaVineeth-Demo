@@ -7,15 +7,6 @@
 
 import Foundation
 
-enum HoldingsDomainError: Error {
-    case networkUnavailable
-    case timeout
-    case unauthorized
-    case server
-    case decoding
-    case unknown
-}
-
 final class HoldingsRepository: HoldingsRepositoryProtocol {
     private let remote: HoldingsRemoteDataSourceProtocol
     private let local: HoldingsLocalDataSourceProtocol
